@@ -25,5 +25,5 @@ def predict_with_url(image_url):
     """
     
     payload = {'sampleLocation': (None, image_url), 'modelId': (None, 'FoodImageClassifier')}
-    headers = {'Authorization':'Bearer ' + "3A5BPUODR3JF7XQPVSF3L7O6ZPYURZMMAE7T4BH7IEMEL67WKE5B6S5FXJ3PTZQKXCIMF2CCGXXSYFZOIWCQGU52LEQAE3ZYOPGYFGY", 'Cache-Control': 'no-cache'}
+    headers = {'Authorization':'Bearer ' + "DXIN2GTRZWGIF2A2SJOZVGIO3B5MKE7H5723AN4YDGOQMWMTPKRKHE32747ACOGBX4VIEPCQZ5OKCJYB6JNZQNJCDBAKEPIXTVTDOBI", 'Cache-Control': 'no-cache'}
     return _prediction_request("https://api.einstein.ai/v2/vision/predict", payload, headers)
